@@ -52,4 +52,10 @@ Para executar este laboratório, você precisará de um ambiente Linux (preferen
    ```bash
    sudo apt-get update
    sudo apt-get install mininet net-tools iproute2 tcpdump iperf
+2. **Colocar arquivos na mesma pasta**
+3. **Executar o arquivo topology.py**
    sudo python3 topology.py
+4. **Executar script para analisar os arquivos .csv**
+   sudo python3 analise_timeline.py
+   sudo python3 plot_results.py
+5. **Os arquivos de log e as análises estarão no diretório /tmp/smart_sampa_logs**
