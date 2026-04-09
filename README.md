@@ -46,9 +46,10 @@ O projeto submete a busca pelas gravações urbanas a 4 cenários baseados na li
 
 ##  Requisitos e Dependências
 
-Para executar este laboratório, você precisará de um ambiente Linux (preferencialmente Ubuntu 20.04 ou superior).
+Para executar este laboratório, você precisará de um ambiente Linux (preferencialmente Ubuntu 20.04 ou superior), para alterar o cenário, basta editar o gargalo no arquivo topology.py.
 
 1. **Instalar Mininet e Utilitários de Rede:**
    ```bash
    sudo apt-get update
    sudo apt-get install mininet net-tools iproute2 tcpdump iperf
+   sudo python3 topology.py
